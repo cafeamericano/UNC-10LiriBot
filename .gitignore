@@ -63,3 +63,6 @@ typings/
 
 # next.js build output
 .next
+
+#Bandsintown API Key Request Documentation
+BandsInTown_Request_Documentation/
