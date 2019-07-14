@@ -1,17 +1,21 @@
-require('dotenv').config()
-
-
 // var keys = require('./keys.js')
 // var spotify = new Spotify(keys.spotify)
 
 //Requirements
+require('dotenv').config()
 var axios = require("axios");
+var Spotify = require('node-spotify-api');
 
-//Keys
+//########################################################################################################
+//########################################## KEY PREPARATION #############################################
+//########################################################################################################
+
 var bandsInTownKey = process.env.BANDSINTOWN_KEY
-var spotifyID = process.env.SPOTIFY_ID
-var spotifySecret = process.env.SPOTIFY_SECRET
 var omdbKey = process.env.OMDB_KEY
+var spotify = new Spotify({
+    id: process.env.SPOTIFY_ID,
+    secret: process.env.SPOTIFY_SECRET
+});
 
 //########################################################################################################
 //########################################## INPUT PROCESSING ############################################
@@ -53,6 +57,24 @@ if (command === 'concert-this') {
 //////////////////////////////////////
 else if (command === 'spotify-this-song') {
     console.log(`Finding a song that matches "${mediaName}"...`)
+    spotify.search({ type: 'track', query: mediaName }, function (err, data) {
+        if (err) {
+            return console.log('Error occurred: ' + err);
+        }
+        let results = data.tracks.items;
+        console.log(results.length)
+        for (var i = 0; i < results.length; i++){
+            console.log('##########')
+            let artistsArr = []
+            for (var j = 0; j < results[i].artists.length; j++){
+                artistsArr.push(results[i].artists[j].name)
+            }
+            console.log('ARTIST(S): ' + artistsArr.join(', '))
+            console.log('SONG NAME: ' + results[i].name)
+            console.log('PREVIEW LINK: ' + results[i].external_urls.spotify)
+            console.log('ALBUM: ' + results[i].album.name)
+        }
+    });
 }
 
 //Movie Search/////////////////////////
