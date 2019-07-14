@@ -44,7 +44,7 @@ if (command === 'concert-this') {
     axios.get(queryURL).then(
         function (response) {
             for (var i = 0; i < response.data.length; i++) {
-                console.log('##########')
+                console.log('##############################')
                 console.log(`${response.data[i].venue.name}`);
                 console.log(`${response.data[i].venue.city} ${response.data[i].venue.region}, ${response.data[i].venue.country}`);
                 console.log(`${response.data[i].datetime}`);
@@ -56,17 +56,27 @@ if (command === 'concert-this') {
 //Song Search/////////////////////////
 //////////////////////////////////////
 else if (command === 'spotify-this-song') {
-    console.log(`Finding a song that matches "${mediaName}"...`)
-    spotify.search({ type: 'track', query: mediaName }, function (err, data) {
+
+    //Handle if no argument Provided
+    let searchValue;
+    if (mediaName === '') {
+        searchValue = 'The Sign Ace of Base'
+    } else {
+        searchValue = mediaName
+    };
+
+    //Perform the search
+    console.log(`Finding a song that matches "${searchValue}"...`)
+    spotify.search({ type: 'track', query: searchValue }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
         let results = data.tracks.items;
         console.log(results.length)
-        for (var i = 0; i < results.length; i++){
-            console.log('##########')
+        for (var i = 0; i < results.length; i++) {
+            console.log('##############################')
             let artistsArr = []
-            for (var j = 0; j < results[i].artists.length; j++){
+            for (var j = 0; j < results[i].artists.length; j++) {
                 artistsArr.push(results[i].artists[j].name)
             }
             console.log('ARTIST(S): ' + artistsArr.join(', '))
@@ -80,19 +90,29 @@ else if (command === 'spotify-this-song') {
 //Movie Search/////////////////////////
 ///////////////////////////////////////
 else if (command === 'movie-this') {
-    console.log(`Searching information for the movie "${mediaName}"...`)
-    let queryURL = `http://www.omdbapi.com/?apikey=${omdbKey}&t=${mediaName}`
+
+    //Handle if no argument Provided
+    let searchValue;
+    if (mediaName === '') {
+        searchValue = 'Mr. Nobody'
+    } else {
+        searchValue = mediaName
+    };
+
+    //Perform the search
+    console.log(`Searching information for the movie "${searchValue}"...`)
+    let queryURL = `http://www.omdbapi.com/?apikey=${omdbKey}&t=${searchValue}`
     console.log(queryURL)
     axios.get(queryURL).then(
         function (response) {
-            console.log(response.data)
-            console.log(response.data.Title)
-            console.log(response.data.Year)
-            console.log(response.data.Ratings)
-            console.log(response.data.Country)
-            console.log(response.data.Language)
-            console.log(response.data.Plot)
-            console.log(response.data.Actors)
+            console.log('##############################')
+            console.log('TITLE: ' + response.data.Title)
+            console.log('YEAR: ' + response.data.Year)
+            console.log('RATINGS: ' + response.data.Ratings)
+            console.log('COUNTRY: ' + response.data.Country)
+            console.log('LANGUAGE: ' + response.data.Language)
+            console.log('PLOT: ' + response.data.Plot)
+            console.log('ACTORS: ' + response.data.Actors)
         }
     )
 
