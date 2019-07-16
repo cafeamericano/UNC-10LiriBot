@@ -164,7 +164,16 @@ function movieSearch() {
         function (response) {
             console.log('TITLE: ' + response.data.Title)
             console.log('YEAR: ' + response.data.Year)
-            console.log('RATINGS: ' + response.data.Ratings)
+            //Handle Ratings info display
+            let ratingsArr = response.data.Ratings
+            for (var i = 0; i < ratingsArr.length; i++) {
+                if (ratingsArr[i].Source === "Internet Movie Database") {
+                    console.log(`IMDB RATING: ${ratingsArr[i].Value}`)
+                }
+                if (ratingsArr[i].Source === "Rotten Tomatoes") {
+                    console.log(`ROTTEN TOMATOES RATING: ${ratingsArr[i].Value}`)
+                }
+            } 
             console.log('COUNTRY: ' + response.data.Country)
             console.log('LANGUAGE: ' + response.data.Language)
             console.log('PLOT: ' + response.data.Plot)
