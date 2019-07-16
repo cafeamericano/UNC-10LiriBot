@@ -4,6 +4,8 @@
 //Requirements
 require('dotenv').config()
 var axios = require("axios");
+var moment = require('moment');
+var fs = require("fs");
 var Spotify = require('node-spotify-api');
 
 //########################################################################################################
@@ -35,27 +37,83 @@ let mediaName = protoName.join(' ').trim()
 //########################################## COMMAND HANDLING ############################################
 //########################################################################################################
 
-//Concert Search/////////////////////////
-/////////////////////////////////////////
-if (command === 'concert-this') {
+
+
+//Do What It Says/////////////////////////
+//////////////////////////////////////////
+// else if (command === 'do-what-it-says') {
+//     console.log('Reading the random.txt file for instructions...')
+//     fs.readFile("random.txt", "utf8", function (error, data) {
+//         //Catch any errors
+//         if (error) {
+//             return console.log(error);
+//         }
+//         //Isolate file contents by comma, place into array
+//         var dataArr = data.split(",");
+
+//         console.log(dataArr);
+//     });
+// }
+
+// //Invalid Command/////////////////////////
+// //////////////////////////////////////////
+// else {
+//     console.log('You entered an invalid command!!!')
+// }
+
+//########################################################################################################
+//############################################## FUNCTIONS ###############################################
+//########################################################################################################
+
+function takeInCommand(recCommand) {
+    if (recCommand === 'concert-this') {
+        concertSearch()
+    }
+    else if (recCommand === 'spotify-this-song') {
+        songSearch()
+    }
+    else if (recCommand === 'movie-this') {
+        movieSearch()
+    }
+    else if (recCommand === 'do-what-it-says') {
+        console.log('Reading the random.txt file for instructions...')
+        fs.readFile("random.txt", "utf8", function (error, data) {
+            //Catch any errors
+            if (error) {
+                return console.log(error);
+            }
+            //Isolate file contents by comma, place into array, isolate elements
+            var dataArr = data.split(",");
+            command = dataArr[0]
+            mediaName = dataArr[1]
+            //Call this function with the command and media name from the random.txt file
+            takeInCommand(command)
+        });
+    }
+    else {
+        console.log('You entered an invalid command!!!')
+    };
+};
+
+function concertSearch() {
     console.log(`Finding upcoming concert information for "${mediaName}"...`)
     let queryURL = `https://rest.bandsintown.com/artists/${mediaName}/events?app_id=${bandsInTownKey}`
-    console.log(queryURL)
     axios.get(queryURL).then(
         function (response) {
             for (var i = 0; i < response.data.length; i++) {
+                console.log(`VENUE: ${response.data[i].venue.name}`);
+                console.log(`LOCATION: ${response.data[i].venue.city} ${response.data[i].venue.region}, ${response.data[i].venue.country}`);
+                let calDate = response.data[i].datetime
+                console.log('DATE: ' + moment(calDate).format("MM-DD-YYYY"));
+                //Draw line break
                 console.log('##############################')
-                console.log(`${response.data[i].venue.name}`);
-                console.log(`${response.data[i].venue.city} ${response.data[i].venue.region}, ${response.data[i].venue.country}`);
-                console.log(`${response.data[i].datetime}`);
             }
         }
     )
-}
 
-//Song Search/////////////////////////
-//////////////////////////////////////
-else if (command === 'spotify-this-song') {
+};
+
+function songSearch() {
 
     //Handle if no argument Provided
     let searchValue;
@@ -74,7 +132,6 @@ else if (command === 'spotify-this-song') {
         let results = data.tracks.items;
         console.log(results.length)
         for (var i = 0; i < results.length; i++) {
-            console.log('##############################')
             let artistsArr = []
             for (var j = 0; j < results[i].artists.length; j++) {
                 artistsArr.push(results[i].artists[j].name)
@@ -83,13 +140,14 @@ else if (command === 'spotify-this-song') {
             console.log('SONG NAME: ' + results[i].name)
             console.log('PREVIEW LINK: ' + results[i].external_urls.spotify)
             console.log('ALBUM: ' + results[i].album.name)
+            //Draw line break
+            console.log('##############################')
         }
     });
+
 }
 
-//Movie Search/////////////////////////
-///////////////////////////////////////
-else if (command === 'movie-this') {
+function movieSearch() {
 
     //Handle if no argument Provided
     let searchValue;
@@ -102,10 +160,8 @@ else if (command === 'movie-this') {
     //Perform the search
     console.log(`Searching information for the movie "${searchValue}"...`)
     let queryURL = `http://www.omdbapi.com/?apikey=${omdbKey}&t=${searchValue}`
-    console.log(queryURL)
     axios.get(queryURL).then(
         function (response) {
-            console.log('##############################')
             console.log('TITLE: ' + response.data.Title)
             console.log('YEAR: ' + response.data.Year)
             console.log('RATINGS: ' + response.data.Ratings)
@@ -113,17 +169,15 @@ else if (command === 'movie-this') {
             console.log('LANGUAGE: ' + response.data.Language)
             console.log('PLOT: ' + response.data.Plot)
             console.log('ACTORS: ' + response.data.Actors)
+            //Draw line break
+            console.log('##############################')
         }
     )
 
-    //Do What It Says/////////////////////////
-    //////////////////////////////////////////
-} else if (command === 'do-what-it-says') {
-    console.log('Performing something special...')
+};
 
-    //Invalid Command/////////////////////////
-    //////////////////////////////////////////
-} else {
-    console.log('You entered an invalid command!!!')
-}
+//########################################################################################################
+//############################################ PROGRAM RUN ###############################################
+//########################################################################################################
 
+takeInCommand(command)
