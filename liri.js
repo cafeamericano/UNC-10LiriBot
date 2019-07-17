@@ -1,23 +1,17 @@
-// var keys = require('./keys.js')
-// var spotify = new Spotify(keys.spotify)
-
 //Requirements
 require('dotenv').config()
+var keys = require('./keys.js')
 var axios = require("axios");
 var moment = require('moment');
 var fs = require("fs");
-var Spotify = require('node-spotify-api');
 
 //########################################################################################################
 //########################################## KEY PREPARATION #############################################
 //########################################################################################################
 
-var bandsInTownKey = process.env.BANDSINTOWN_KEY
-var omdbKey = process.env.OMDB_KEY
-var spotify = new Spotify({
-    id: process.env.SPOTIFY_ID,
-    secret: process.env.SPOTIFY_SECRET
-});
+var bandsInTownKey = keys.bandsInTownKey
+var omdbKey = keys.omdbKey
+var spotify = keys.spotify
 
 //########################################################################################################
 //########################################## INPUT PROCESSING ############################################
@@ -32,34 +26,6 @@ for (var i = 3; i < process.argv.length + 3; i++) {
     protoName.push(process.argv[i])
 }
 let mediaName = protoName.join(' ').trim()
-
-//########################################################################################################
-//########################################## COMMAND HANDLING ############################################
-//########################################################################################################
-
-
-
-//Do What It Says/////////////////////////
-//////////////////////////////////////////
-// else if (command === 'do-what-it-says') {
-//     console.log('Reading the random.txt file for instructions...')
-//     fs.readFile("random.txt", "utf8", function (error, data) {
-//         //Catch any errors
-//         if (error) {
-//             return console.log(error);
-//         }
-//         //Isolate file contents by comma, place into array
-//         var dataArr = data.split(",");
-
-//         console.log(dataArr);
-//     });
-// }
-
-// //Invalid Command/////////////////////////
-// //////////////////////////////////////////
-// else {
-//     console.log('You entered an invalid command!!!')
-// }
 
 //########################################################################################################
 //############################################## FUNCTIONS ###############################################
@@ -105,8 +71,7 @@ function concertSearch() {
                 console.log(`LOCATION: ${response.data[i].venue.city} ${response.data[i].venue.region}, ${response.data[i].venue.country}`);
                 let calDate = response.data[i].datetime
                 console.log('DATE: ' + moment(calDate).format("MM-DD-YYYY"));
-                //Draw line break
-                console.log('##############################')
+                console.log('')
             }
         }
     )
@@ -140,8 +105,7 @@ function songSearch() {
             console.log('SONG NAME: ' + results[i].name)
             console.log('PREVIEW LINK: ' + results[i].external_urls.spotify)
             console.log('ALBUM: ' + results[i].album.name)
-            //Draw line break
-            console.log('##############################')
+            console.log('')
         }
     });
 
@@ -178,8 +142,7 @@ function movieSearch() {
             console.log('LANGUAGE: ' + response.data.Language)
             console.log('PLOT: ' + response.data.Plot)
             console.log('ACTORS: ' + response.data.Actors)
-            //Draw line break
-            console.log('##############################')
+            console.log('')
         }
     )
 
@@ -188,5 +151,11 @@ function movieSearch() {
 //########################################################################################################
 //############################################ PROGRAM RUN ###############################################
 //########################################################################################################
+
+console.log('')
+console.log('###########################################################')
+console.log('#################### WELCOME TO LIRI ######################')
+console.log('###########################################################')
+console.log('')
 
 takeInCommand(command)
