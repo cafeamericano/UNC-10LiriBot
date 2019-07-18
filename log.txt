@@ -1,0 +1,598 @@
+*** Finding upcoming concert information for "madonna"... *** 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-12-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-17-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-21-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-22-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-24-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-25-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-26-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-28-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 10-01-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 10-02-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 10-03-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 10-05-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 10-06-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 10-07-2019 
+ 
+
+ VENUE: The Chicago Theatre 
+ LOCATION: Chicago IL, United States 
+ DATE: 10-15-2019 
+ 
+
+ VENUE: The Chicago Theatre 
+ LOCATION: Chicago IL, United States 
+ DATE: 10-16-2019 
+ 
+
+ VENUE: The Chicago Theatre 
+ LOCATION: Chicago IL, United States 
+ DATE: 10-17-2019 
+ 
+
+ VENUE: The Chicago Theatre 
+ LOCATION: Chicago IL, United States 
+ DATE: 10-21-2019 
+ 
+
+ VENUE: The Chicago Theatre 
+ LOCATION: Chicago IL, United States 
+ DATE: 10-23-2019 
+ 
+
+ VENUE: The Chicago Theatre 
+ LOCATION: Chicago IL, United States 
+ DATE: 10-24-2019 
+ 
+
+ VENUE: Spiegeltent at Caesars Palace 
+ LOCATION: Las Vegas NV, United States 
+ DATE: 11-07-2019 
+ 
+
+ VENUE: Spiegeltent at Caesars Palace 
+ LOCATION: Las Vegas NV, United States 
+ DATE: 11-09-2019 
+ 
+
+ VENUE: Spiegeltent at Caesars Palace 
+ LOCATION: Las Vegas NV, United States 
+ DATE: 11-10-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-12-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-13-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-14-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-16-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-17-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-19-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-20-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-21-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-23-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-24-2019 
+ 
+
+ VENUE: The Wiltern 
+ LOCATION: Los Angeles CA, United States 
+ DATE: 11-25-2019 
+ 
+
+ VENUE: Boch Center - Wang Theatre 
+ LOCATION: Boston MA, United States 
+ DATE: 11-30-2019 
+ 
+
+ VENUE: Boch Center - Wang Theatre 
+ LOCATION: Boston MA, United States 
+ DATE: 12-01-2019 
+ 
+
+ VENUE: Boch Center - Wang Theatre 
+ LOCATION: Boston MA, United States 
+ DATE: 12-02-2019 
+ 
+
+ VENUE: The Met Philadelphia 
+ LOCATION: Philadelphia PA, United States 
+ DATE: 12-07-2019 
+ 
+
+ VENUE: The Met Philadelphia 
+ LOCATION: Philadelphia PA, United States 
+ DATE: 12-08-2019 
+ 
+
+ VENUE: The Met Philadelphia 
+ LOCATION: Philadelphia PA, United States 
+ DATE: 12-11-2019 
+ 
+
+ VENUE: Backstage at the Fillmore Miami Beach 
+ LOCATION: Miami Beach FL, United States 
+ DATE: 12-14-2019 
+ 
+
+ VENUE: Backstage at the Fillmore Miami Beach 
+ LOCATION: Miami Beach FL, United States 
+ DATE: 12-15-2019 
+ 
+
+ VENUE: Backstage at the Fillmore Miami Beach 
+ LOCATION: Miami Beach FL, United States 
+ DATE: 12-17-2019 
+ 
+
+ VENUE: Backstage at the Fillmore Miami Beach 
+ LOCATION: Miami Beach FL, United States 
+ DATE: 12-18-2019 
+ 
+
+ VENUE: Backstage at the Fillmore Miami Beach 
+ LOCATION: Miami Beach FL, United States 
+ DATE: 12-19-2019 
+ 
+
+ VENUE: Coliseu dos Recreios 
+ LOCATION: Lisboa , Portugal 
+ DATE: 01-16-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 01-26-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 01-27-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 01-29-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 01-30-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-01-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-02-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-04-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-05-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-06-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-08-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-09-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-11-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-12-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-13-2020 
+ 
+
+ VENUE: London Palladium 
+ LOCATION: London , United Kingdom 
+ DATE: 02-15-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-18-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-19-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-20-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-21-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-22-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-23-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-25-2020 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-15-2019 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-19-2019 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-29-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 03-01-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 03-03-2020 
+ 
+
+ VENUE: Grand Rex Paris 
+ LOCATION: Paris , France 
+ DATE: 03-04-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-26-2020 
+ 
+
+ VENUE: GRAND REX 
+ LOCATION: Paris , France 
+ DATE: 02-27-2020 
+ 
+
+ VENUE: BAM (Brooklyn Academy of Music) 
+ LOCATION: Brooklyn NY, United States 
+ DATE: 09-14-2019 
+ 
+*** Finding a song that matches "come as you are"... *** 
+ 
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/4P5KoWXOxwuobLmHXLMobV
+ALBUM: Nevermind (Remastered)
+
+ARTIST(S): Crowder
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/6iha1ZUpCGUJrrQLDSFYux
+ALBUM: Neon Steeple
+
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/7aCSKL5LmVhakVs0l483B5
+ALBUM: Nevermind
+
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/0LnkNEgEXv83bVVvgnB9Et
+ALBUM: Nirvana
+
+ARTIST(S): Shane & Shane
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/7bIm0ycdw7tiQEjsKzSTmM
+ALBUM: The Worship Initiative, Vol. 12
+
+ARTIST(S): Civil Twilight
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/5CBTQ8PLW3A5puBplpqHyX
+ALBUM: Come As You Are: A 20th Anniversary Tribute To Nirvana's 'Nevermind'
+
+ARTIST(S): David Leonard
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/2eYm67Yrt9RGuvSXTbPUd2
+ALBUM: The Wait
+
+ARTIST(S): Ryan Oakes, Laura Manzer
+SONG NAME: Come as You Are (feat. Laura Manzer)
+PREVIEW LINK: https://open.spotify.com/track/6znz5MFZ5RfLWTCRCJI3yJ
+ALBUM: Come as You Are (feat. Laura Manzer)
+
+ARTIST(S): Cole Albrighton
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/3dTqwybPJl59b9fTTiSJSM
+ALBUM: Reflections
+
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/1caUjUoE2lm6x9RDY7YtHc
+ALBUM: Nevermind (Super Deluxe Edition)
+
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/6N0ZAWkJUWUI0QYG2VwHmL
+ALBUM: Nevermind (Deluxe Edition)
+
+ARTIST(S): Yuna
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/48Egr6zPIlUDMflxQzg4uM
+ALBUM: Come As You Are
+
+ARTIST(S): Crowder
+SONG NAME: Come As You Are - Live
+PREVIEW LINK: https://open.spotify.com/track/1SsfOO8alQGF38tecwdHiL
+ALBUM: Crowder’s Neon Porch Extravaganza (Live)
+
+ARTIST(S): Passion, Crowder
+SONG NAME: Come As You Are - Live
+PREVIEW LINK: https://open.spotify.com/track/6Dx90x5pkAN38nlMXAJSGM
+ALBUM: Passion: Take It All (Live)
+
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are - 1992/Live at Reading
+PREVIEW LINK: https://open.spotify.com/track/1FmyQsaX4olWP8OOHzVT6c
+ALBUM: Live at Reading
+
+ARTIST(S): American Horror Story Cast, Evan Peters
+SONG NAME: Come as You Are (From American Horror Story) [feat. Evan Peters]
+PREVIEW LINK: https://open.spotify.com/track/1eDJudkBoJslDM7z2aKa7r
+ALBUM: Come as You Are (From American Horror Story) [feat. Evan Peters]
+
+ARTIST(S): Prep School
+SONG NAME: Come as You Are
+PREVIEW LINK: https://open.spotify.com/track/2SzvpsqEdlVvrbloAcBmqg
+ALBUM: Come as You Are
+
+ARTIST(S): Nirvana
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/3sYWyVGfPuit80szWXhrRA
+ALBUM: MTV Unplugged In New York
+
+ARTIST(S): Imaginary Future
+SONG NAME: Come As You Are
+PREVIEW LINK: https://open.spotify.com/track/2BPmo2L5bYVS5SmpOTcfyF
+ALBUM: Come As You Are
+
+ARTIST(S): Turnpike Troubadours
+SONG NAME: Come as You Are
+PREVIEW LINK: https://open.spotify.com/track/2HQhhTbfAYrk29QAcDBPBn
+ALBUM: Come as You Are
+
+*** Searching information for the movie "mean girls"... *** 
+
+ COUNTRY: USA, Canada 
+ LANGUAGE: English, German, Vietnamese, Swahili 
+ PLOT: Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George. 
+ ACTORS: Lindsay Lohan, Rachel McAdams, Tina Fey, Tim Meadows 
+ 
+*** Reading the random.txt file for instructions... *** 
+*** Finding a song that matches " "welcome to the jungle""... *** 
+ 
+ARTIST(S): Guns N' Roses
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/0G21yYKMZoHa30cYVi1iA8
+ALBUM: Appetite For Destruction
+
+ARTIST(S): Guns N' Roses
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/4fnGw1e3iYLlRqzJjhXUQI
+ALBUM: Lean On Me (Original Soundtrack)
+
+ARTIST(S): Franco "El Gorilla", Tico El Imigrante
+SONG NAME: He Querido Quererte
+PREVIEW LINK: https://open.spotify.com/track/5buC1VFP7FSaB0YokvP0EJ
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Guns N' Roses
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/3ApODkZRvVrvj2v2UbbMUL
+ALBUM: Appetite For Destruction (Super Deluxe Edition)
+
+ARTIST(S): Franco "El Gorilla", Yandel
+SONG NAME: Sexo Seguro
+PREVIEW LINK: https://open.spotify.com/track/5pOu3vSiKrEmj65N1CWqOI
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Novo Amor
+SONG NAME: Welcome to the Jungle
+PREVIEW LINK: https://open.spotify.com/track/1lO9rzG6zQwduAprZAI7N1
+ALBUM: Welcome to the Jungle
+
+ARTIST(S): 2CELLOS
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/4Z2xCQI6meUPyK8dcHQVDh
+ALBUM: 2Cellos
+
+ARTIST(S): 2CELLOS
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/33nhfezWKXCkx4byFQBgvs
+ALBUM: 2Cellos
+
+ARTIST(S): Alvaro, Mercer, Lil Jon
+SONG NAME: Welcome To The Jungle - Original Mix
+PREVIEW LINK: https://open.spotify.com/track/70H8KRBMZfiBeHHW1cWYvp
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Franco "El Gorilla"
+SONG NAME: Torturame
+PREVIEW LINK: https://open.spotify.com/track/3EN0CwM0pfY1kokCVSRVbI
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Guns N' Roses
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/0ELoI4gUUNEzobEPhRQSQu
+ALBUM: Greatest Hits
+
+ARTIST(S): Franco "El Gorilla"
+SONG NAME: Psiquiatrica Loca
+PREVIEW LINK: https://open.spotify.com/track/6V2zErZPoNR13FyNLEpACY
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Franco "El Gorilla", Yandel
+SONG NAME: Vamos Hacerlo
+PREVIEW LINK: https://open.spotify.com/track/4qZEe7OrbYFWUCFrnCOP0O
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Crankdat, Sara Skinner
+SONG NAME: Welcome to the Jungle (feat. Sara Skinner)
+PREVIEW LINK: https://open.spotify.com/track/2UPUu1zVgVQGGmdKgSfEPP
+ALBUM: Welcome to the Jungle
+
+ARTIST(S): Guns N' Roses
+SONG NAME: Welcome To The Jungle - Live Version (Explicit)
+PREVIEW LINK: https://open.spotify.com/track/1y0xHa5nB3DJmRC1jXzIYD
+ALBUM: Live Era '87-'93
+
+ARTIST(S): Franco "El Gorilla", Wisin, Yandel, Javiah
+SONG NAME: Pa' Lo Oscuro
+PREVIEW LINK: https://open.spotify.com/track/3NJ1WyQnzdInQD99GfmkpS
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Tommee Profitt, Fleurie
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/0k74H88yhItrkpI3AbBuNH
+ALBUM: Cinematic Songs (Vol. 4)
+
+ARTIST(S): Crankdat, Sara Skinner
+SONG NAME: Welcome to the Jungle
+PREVIEW LINK: https://open.spotify.com/track/4QZPjuBx0NvmQPRgLgAb0W
+ALBUM: GEARWORLD VOL. 1
+
+ARTIST(S): Franco "El Gorilla", Wisin
+SONG NAME: Me Estoy Muriendo
+PREVIEW LINK: https://open.spotify.com/track/6lwUmfayliIRbmmA0FzAqH
+ALBUM: Welcome To The Jungle
+
+ARTIST(S): Richard Cheese
+SONG NAME: Welcome To The Jungle
+PREVIEW LINK: https://open.spotify.com/track/2q9fHed4CZImXjFqDZRDFI
+ALBUM: Aperitif For Destruction
+

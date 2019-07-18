@@ -5,7 +5,7 @@
 __________________________________________________________________________________
 
 ### About
-LIRI Bot is a command-line node application designed to allow users to easily search for information on songs, movies, and concerts. The user may run one of the four functions listed below.
+LIRI Bot is a command-line node application designed to allow users to easily search for information on songs, movies, and concerts. The user may run one of the four functions listed below. Results will be printed to the console as well as saved in a text file (log.txt).
 
 ### Concert Search
 > node liri.js concert-this (artistName)
@@ -41,9 +41,11 @@ ________________________________________________________________________________
 
 APIs utilized include the Spotify API, BandsInTown API, and OMDB API.
 
-Node packages utilized include Axios (for making asynchronous HTTP requests), Moment (for formatting the dates of upcoming concerts), and DotEnv (for securely storing API keys).
+Node packages utilized include Axios (for making asynchronous HTTP requests), Moment (for formatting the dates of upcoming concerts), and DotEnv (for securely storing API keys). The built-in FS package is used for reading the contents of the random.txt file.
 
 ### Other Notes
+
+Search results are exported/saved to a file titled 'log.txt'. Results append to the text file rather than overwrite its contents.
 
 A video demonstration of LIRI Bot in action may be found at:
 https://github.com/cafeamericano/UNC-10LiriBot/blob/master/demonstration.MOV

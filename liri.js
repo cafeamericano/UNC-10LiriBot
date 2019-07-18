@@ -43,6 +43,8 @@ function takeInCommand(recCommand) {
     }
     else if (recCommand === 'do-what-it-says') {
         console.log('Reading the random.txt file for instructions...')
+        exportToFile(`*** Reading the random.txt file for instructions... *** \n`)
+
         fs.readFile("random.txt", "utf8", function (error, data) {
             //Catch any errors
             if (error) {
@@ -63,6 +65,8 @@ function takeInCommand(recCommand) {
 
 function concertSearch() {
     console.log(`Finding upcoming concert information for "${mediaName}"...`)
+    exportToFile(`*** Finding upcoming concert information for "${mediaName}"... *** \n`)
+
     let queryURL = `https://rest.bandsintown.com/artists/${mediaName}/events?app_id=${bandsInTownKey}`
     axios.get(queryURL).then(
         function (response) {
@@ -72,6 +76,8 @@ function concertSearch() {
                 let calDate = response.data[i].datetime
                 console.log('DATE: ' + moment(calDate).format("MM-DD-YYYY"));
                 console.log('')
+
+                exportToFile(`\n VENUE: ${response.data[i].venue.name} \n LOCATION: ${response.data[i].venue.city} ${response.data[i].venue.region}, ${response.data[i].venue.country} \n DATE: ${moment(calDate).format("MM-DD-YYYY")} \n \n`)
             }
         }
     )
@@ -90,6 +96,8 @@ function songSearch() {
 
     //Perform the search
     console.log(`Finding a song that matches "${searchValue}"...`)
+    exportToFile(`*** Finding a song that matches "${searchValue}"... *** \n \n`)
+
     spotify.search({ type: 'track', query: searchValue }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
@@ -106,6 +114,14 @@ function songSearch() {
             console.log('PREVIEW LINK: ' + results[i].external_urls.spotify)
             console.log('ALBUM: ' + results[i].album.name)
             console.log('')
+
+            exportToFile(
+                'ARTIST(S): ' + artistsArr.join(', ') + '\n' +
+                'SONG NAME: ' + results[i].name + '\n' +
+                'PREVIEW LINK: ' + results[i].external_urls.spotify + '\n' +
+                'ALBUM: ' + results[i].album.name + '\n' +
+                '' + '\n'
+            )
         }
     });
 
@@ -123,6 +139,8 @@ function movieSearch() {
 
     //Perform the search
     console.log(`Searching information for the movie "${searchValue}"...`)
+    exportToFile(`*** Searching information for the movie "${searchValue}"... *** \n`)
+
     let queryURL = `http://www.omdbapi.com/?apikey=${omdbKey}&t=${searchValue}`
     axios.get(queryURL).then(
         function (response) {
@@ -137,16 +155,26 @@ function movieSearch() {
                 if (ratingsArr[i].Source === "Rotten Tomatoes") {
                     console.log(`ROTTEN TOMATOES RATING: ${ratingsArr[i].Value}`)
                 }
-            } 
+            }
             console.log('COUNTRY: ' + response.data.Country)
             console.log('LANGUAGE: ' + response.data.Language)
             console.log('PLOT: ' + response.data.Plot)
             console.log('ACTORS: ' + response.data.Actors)
             console.log('')
+
+            exportToFile(`\n COUNTRY: ${response.data.Country} \n LANGUAGE: ${response.data.Language} \n PLOT: ${response.data.Plot} \n ACTORS: ${response.data.Actors} \n \n`)
         }
     )
 
 };
+
+function exportToFile(text) {
+    fs.appendFile("log.txt", text, function (err) {
+        if (err) {
+            console.log(err);
+        }
+    });
+}
 
 //########################################################################################################
 //############################################ PROGRAM RUN ###############################################
@@ -159,3 +187,4 @@ console.log('###########################################################')
 console.log('')
 
 takeInCommand(command)
+
