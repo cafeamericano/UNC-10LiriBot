@@ -41,7 +41,7 @@ ________________________________________________________________________________
 
 APIs utilized include the Spotify API, BandsInTown API, and OMDB API.
 
-Node packages utilized include Axios (for making asynchronous HTTP requests), Moment (for formatting the dates of upcoming concerts), and DotEnv (for securely storing API keys). The built-in FS package is used for reading the contents of the random.txt file.
+Node packages utilized include Axios (for making asynchronous HTTP requests), Moment (for formatting the dates of upcoming concerts), and DotEnv (for securely storing API keys). The built-in FS package is used for reading the contents of the random.txt file as well as exporting results to the log.txt file.
 
 ### Other Notes
 
