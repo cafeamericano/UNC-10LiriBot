@@ -1,39 +1,32 @@
-# Dashboard
-## UNC Project #1
+# LIRI Bot
+## UNC Assignment #10
 
-![alt text](dashboard.png)
-
-### Created by Matthew Farmer, Shivam Sukhwal, Kelvin Tran, and Ji Soo Noh
-
-Deployed at: https://cafeamericano.github.io/UNC-Project01/
+### Created by Matthew Farmer
 __________________________________________________________________________________
 
 ### About
-Dashboard was designed to provide the business-oriented client with a one-stop location for important information on weather, stocks, cryptocurrency, news, and location information.
+LIRI Bot is a command-line node application designed to allow users to search for information on songs, movies, and concerts.
 
-### Login
-Users may login by entering their email address and password on the login page. New users may create an account by entering their desired credentials, then clicking the hyperlink indicated at the bottom of the page. **This avoids the need for a separate create-an-account page**
+### Concert Search
+![concert](concert.png)
+> node liri.js concert-this (artistName)
 
-### Weather
-If the user has searched the weather status of a city during a previous session, weather cards for these cities will render automatically on the screen. To add a new city, the user may enter the name of a city in the search box and press enter. A card displaying current weather information will be added to the screen.
+This feature uses the BandsInTown API to search for upcoming concerts for a given artist. Data returned includes the venue name, venue location, and date of the concert.
 
-### Stocks
-If the user has searched the value of a company's stock during a previous session, cards for these stocks will render automatically on the screen. To add a new stock, the user may enter the ticker code in the search box and press enter. A card displaying current stock information will be added to the screen. To view historical information, the user may click the icon in the top-right corner of the card. A graph will display showing changes in the stock's valuation over the past 5 years. Specific values my be viewed by hovering over the data points on the chart.
+### Song Search
+![song](song.png)
+> node liri.js spotify-this-song (songName)
 
-### Cryptocurrency
-If the user has searched the value of a cryptocurrency during a previous session, cards for these cryptocurrencies will render automatically on the screen. To add a new cryptocurrency, the user may enter the abbreviation for the cryptocurrency (i.e. for 'Bitcoin', enter 'BTC') in the search box and press enter. A card displaying current cryptocurrency information will be added to the screen. 
+This feature uses the Spotify API to search for songs that match a given song title. Data returned includes the name of the artist(s), song name, a preview link on Spotify, and the album from which the song originates.
 
-### News
-Upon accessing the news page, the user will be presented with cards reflecting the 20 top headlines (as decided by the New York Times API). To view news articles on a specific topic, the user may enter a topic in the search bar. Upon pressing Enter, ten articles will appear relating to the searched topic and two new buttons will appear under the search bar - these buttons will allow the user to page through the results returned from the New York Times.
+### Movie Search
+![movie](movie.png)
+> node liri.js movie-this (movieName)
 
-### Maps
-With the business-oriented client in mind, the Maps page was implemented to allow users to visualize the location of his/her/their next business meeting. Upon entering a city, place, or address into the search bar and pressing enter, the user will be presented with a list of relevant options as determined by Google. Upon selecting an option, the user will be able to locate the city/place/address on a map.
-__________________________________________________________________________________
+This feature uses the OMDB API to search for a movie that matches a given movie title. Data returned includes the title of the movie, the year the movie was released, the movie's country of origin, languages in which the movie is available, a brief summary of the plot, and a list of the main actors in the film.
 
-### Other Notes
-Dashboard was designed to be 100% mobile-responsive; users may access the application from a desktop, smartphone, or tablet and enjoy an optimal experience.
+### Read Instructions from File
+![do-what-it-says](dowhatitsays.png)
+>node liri.js do-what-it-says
 
-### Background Image Attribution
-Photo by Georgie Cobbs on Unsplash
-https://unsplash.com/photos/muOHbrFGEQY
-
+This feature allows instructions from the 'random.txt' file to be performed using one of the three other functions (concert search, song search, or movie search). For example, the user may change the text inside 'random.txt' to read 'movie-this, Titanic' and run the application using 'node liri.js do-what-it-says' on the command line. LIRI Bot will then return information on the movie 'Titanic' using the movie search function.
