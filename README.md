@@ -1,6 +1,4 @@
-# LIRI Bot
-## UNC Assignment #10
-
+# UNC Assignment #8 - LIRI Bot
 ### Created by Matthew Farmer
 __________________________________________________________________________________
 
