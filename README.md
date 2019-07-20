@@ -1,12 +1,15 @@
 # UNC Assignment #8 - LIRI Bot
 > Created by Matthew Farmer
 
+## Introduction 
+
 ### About
 LIRI Bot is a command-line node application designed to allow users to easily search for information on songs, movies, and concerts. The user may run one of the four functions listed below. Results will be printed to the console as well as saved in a text file (log.txt).
 
 ### Video Demonstration
 ![gif](/Screenshots/liriBot.gif)
-__________________________________________________________________________________
+
+## Key Features
 
 ### Concert Search
 `node liri.js concert-this (artistName)`
@@ -37,6 +40,8 @@ This feature uses the OMDB API to search for a movie that matches a given movie 
 This feature allows instructions from the 'random.txt' file to be performed using one of the three other functions (concert search, song search, or movie search). For example, the user may change the text inside 'random.txt' to read 'movie-this, Titanic' and run the application using 'node liri.js do-what-it-says' on the command line. LIRI Bot will then return information on the movie 'Titanic' using the movie search function.
 
 __________________________________________________________________________________
+
+## Additional Information
 
 ### Technologies Used
 
