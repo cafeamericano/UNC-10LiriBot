@@ -1,5 +1,5 @@
 # UNC Assignment #8 - LIRI Bot
-### Created by Matthew Farmer
+> Created by Matthew Farmer
 __________________________________________________________________________________
 
 ### About
@@ -10,28 +10,28 @@ LIRI Bot is a command-line node application designed to allow users to easily se
 __________________________________________________________________________________
 
 ### Concert Search
-> node liri.js concert-this (artistName)
+`node liri.js concert-this (artistName)`
 
 ![concert](/Screenshots/concert.png)
 
 This feature uses the BandsInTown API to search for upcoming concerts for a given artist. Data returned includes the venue name, venue location, and date of the concert.
 
 ### Song Search
-> node liri.js spotify-this-song (songName)
+`node liri.js spotify-this-song (songName)`
 
 ![song](/Screenshots/song.png)
 
 This feature uses the Spotify API to search for songs that match a given song title. Data returned includes the name of the artist(s), song name, a preview link on Spotify, and the album from which the song originates.
 
 ### Movie Search
-> node liri.js movie-this (movieName)
+`node liri.js movie-this (movieName)`
 
 ![movie](/Screenshots/movie.png)
 
 This feature uses the OMDB API to search for a movie that matches a given movie title. Data returned includes the title of the movie, the year the movie was released, the movie's country of origin, languages in which the movie is available, a brief summary of the plot, and a list of the main actors in the film.
 
 ### Read Instructions from File
->node liri.js do-what-it-says
+`node liri.js do-what-it-says`
 
 ![do-what-it-says](/Screenshots/dowhatitsays.png)
 
