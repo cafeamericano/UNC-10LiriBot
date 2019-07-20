@@ -7,7 +7,6 @@ LIRI Bot is a command-line node application designed to allow users to easily se
 
 ### Video Demonstration
 ![gif](/Screenshots/liriBot.gif)
-__________________________________________________________________________________
 
 ### Concert Search
 `node liri.js concert-this (artistName)`
