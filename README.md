@@ -1,4 +1,4 @@
-# UNC Assignment #8 - LIRI Bot
+# **UNC Assignment #8 - LIRI Bot**
 > Created by Matthew Farmer
 
 ## Introduction 
@@ -38,8 +38,6 @@ This feature uses the OMDB API to search for a movie that matches a given movie 
 ![do-what-it-says](/Screenshots/dowhatitsays.png)
 
 This feature allows instructions from the 'random.txt' file to be performed using one of the three other functions (concert search, song search, or movie search). For example, the user may change the text inside 'random.txt' to read 'movie-this, Titanic' and run the application using 'node liri.js do-what-it-says' on the command line. LIRI Bot will then return information on the movie 'Titanic' using the movie search function.
-
-__________________________________________________________________________________
 
 ## Additional Information
 
