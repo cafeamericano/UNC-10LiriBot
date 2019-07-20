@@ -50,6 +50,3 @@ Node packages utilized include Axios (for making asynchronous HTTP requests), Mo
 ### Other Notes
 
 Search results are exported/saved to a file titled 'log.txt'. Results append to the text file rather than overwrite its contents.
-
-A video demonstration of LIRI Bot in action may be found at:
-https://github.com/cafeamericano/UNC-10LiriBot/blob/master/demonstration.MOV
