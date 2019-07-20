@@ -1,4 +1,4 @@
-# **UNC Assignment #8 - LIRI Bot**
+# **UNC Assignment #8 - LIRI Bot (Node)**
 > Created by Matthew Farmer
 
 ## Introduction 
